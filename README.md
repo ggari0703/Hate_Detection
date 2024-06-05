@@ -48,7 +48,7 @@
 
 SoyNLP를 통해 데이터를 간단하게 전처리했다.
 
-## 모델 학습 및 결과
+## 모델 학습 및 결과(1d-CNN 모델은 기존 이진 분류 문제인 CURSE dataset을 제외한 다른 dataset 또한 이진 분류 문제로 전환하여 진행하였다.)
 
 > 결과 (Accuracy)
 <table style="width: 40%;">
@@ -59,7 +59,7 @@ SoyNLP를 통해 데이터를 간단하게 전처리했다.
   <td> Curse_data </td> <td> 0.721 </td> <td> 0.873 </td> <td> 0.856 </td>
  </tr>
  <tr> 
-  <td> KHS </td> <td> 0.0220 </td> <td> 0.692 </td> <td> 0.705 </td>
+  <td> KHS </td> <td> 0.6392 </td> <td> 0.692 </td> <td> 0.705 </td>
  </tr>
  <tr> 
   <td> KmHAS </td> <td> 0.632 </td> <td> 0.854 </td> <td> 0.853 </td>
@@ -78,7 +78,7 @@ SoyNLP를 통해 데이터를 간단하게 전처리했다.
   <td> Curse_data </td> <td> 0.570 </td> <td> 0.870 </td> <td> 0.803 </td>
  </tr>
  <tr> 
-  <td> KHS </td> <td> - </td> <td> 0.689 </td> <td> 0.710 </td>
+  <td> KHS </td> <td> 0.701 </td> <td> 0.689 </td> <td> 0.710 </td>
  </tr>
  <tr> 
   <td> KmHAS </td> <td> 0.713 </td> <td> 0.853 </td> <td> 0.853 </td>
