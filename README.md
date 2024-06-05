@@ -48,7 +48,9 @@
 
 SoyNLP를 통해 데이터를 간단하게 전처리했다.
 
-## 모델 학습 및 결과(1d-CNN 모델은 기존 이진 분류 문제인 CURSE dataset을 제외한 다른 dataset 또한 이진 분류 문제로 전환하여 진행하였다.)
+## 모델 학습 및 결과
+
+(1d-CNN 모델은 기존 이진 분류 문제인 CURSE dataset을 제외한 다른 dataset 또한 이진 분류 문제로 전환하여 진행하였다.)
 
 > 결과 (Accuracy)
 <table style="width: 40%;">
